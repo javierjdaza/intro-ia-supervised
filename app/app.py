@@ -53,7 +53,7 @@ st.markdown("""
         Javier Daza Olivella &nbsp;·&nbsp; Pablo Jimeno Juca &nbsp;·&nbsp; María Sofía Uribe
     </div>
     <div style="margin-top:0.8rem; font-size:0.95rem; opacity:0.9;">
-        📚 Inteligencia Artificial ECA&I — Posgrado &nbsp;|&nbsp;
+        📚 Maestría en Ciencia de los Datos &nbsp;|&nbsp;
         🏛️ Universidad EAFIT — Periodo 2026‑1<br>
         👨‍🏫 Docente: Jorge Iván Padilla‑Buriticá
     </div>
@@ -88,47 +88,6 @@ with col3:
         "visualización del dígito 8×8, predicción por lote (CSV), importancia de features y "
         "evidencia de pruebas para los mejores modelos."
     )
-
-st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
-
-# ── Checklist ─────────────────────────────────────────────────────────────────
-st.markdown("### ✅ Checklist de Entregables")
-
-col_left, col_right = st.columns(2)
-
-checklist_left = [
-    "EDA completo con visualizaciones interactivas",
-    "Preprocesamiento documentado (encoding, scaling)",
-    "Pipeline de Regresión (5 modelos entrenados)",
-    "Pipeline de Clasificación (5 modelos entrenados)",
-    "Búsqueda de hiperparámetros con GridSearchCV",
-    "Validación cruzada 5-fold (CV)",
-    "Métricas en entrenamiento y prueba",
-    "Comparación visual de modelos",
-    "Matriz de Confusión del mejor clasificador",
-    "Curvas ROC para todos los clasificadores",
-]
-
-checklist_right = [
-    "Importancia de características del mejor modelo",
-    "Dashboard de predicción individual",
-    "Predicción por lote (carga CSV)",
-    "Descarga de resultados en CSV",
-    "Evidencia de pruebas (5 casos documentados)",
-    "Manejo de datos faltantes y outliers",
-    "Análisis de clases desbalanceadas",
-    "Evaluación con F1-Score y AUC-ROC",
-    "Quiz de evaluación conceptual (20 preguntas)",
-    "Código reproducible y comentado",
-]
-
-with col_left:
-    for item in checklist_left:
-        st.markdown(f"✅ {item}")
-
-with col_right:
-    for item in checklist_right:
-        st.markdown(f"✅ {item}")
 
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
@@ -176,7 +135,7 @@ st.info(
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 st.markdown(
     "<div style='text-align:center; color:#888; font-size:0.85rem;'>"
-    "Universidad EAFIT · Inteligencia Artificial ECA&I · 2026-1 · "
+    "Universidad EAFIT · Maestría en Ciencia de los Datos · 2026-1 · "
     "Taller 02 — Aprendizaje Supervisado"
     "</div>",
     unsafe_allow_html=True
